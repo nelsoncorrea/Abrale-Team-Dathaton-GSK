@@ -1,0 +1,42 @@
+No Controle da Asma, o 1 Datathon em Saude da GSK Brazil e eretz.bio
+
+Equipe: Abrale Team.
+Integrantes: Guilherme Dias Felitti. CPF: 314.198.558-83. E-mail: gfelitti@gmail.com
+Nelson Francisco Correa Netto. CPF: 416.200.028-09. E-mail: nelson@abrale.org.br
+Tiago Cepas Lobo. CPF: 356.574.438-37. E-mail: tiago@abrale.org.br
+
+Relatório da Análise:
+Os dados do DATASUS foram selecionados de acordo com Codigo Internacional de Doença (CID-10) J45- Asma (J45.0; J45.1; J45.8; J45.9), nos anos de 2016 e 2017. Do SIASUS foi utilizada a base
+de dados das APACS de medicamentos. Foram analisados o numero de Laudos Excepcionais de Medicamentos (LMEs) e numero de pacientes em uso da associacao dos farmacos agonistas dos receptores
+beta 2 adrenergicos e glicocorticoides inalatorios (formoterol e budenisosna), de acordo com o municipio de residencia do paciente, para o tratamento do grupo do CID J45, 
+abaixo o codigo de dispensacao da tabela SIGITAP: 
+
+06.04.04.004-0 - FORMOTEROL 12 MCG + BUDESONIDA 400 MCG POR CAPSULA INALANTE)	
+06.04.04.005-9 - FORMOTEROL 12 MCG + BUDESONIDA 400 MCG PO INALANTE (POR FRASCO DE 60 DOSES)	
+06.04.04.006-7 - FORMOTEROL 6 MCG + BUDESONIDA 200 MCG PO INALANTE (POR FRASCO DE 60 DOSES)	
+06.04.04.007-5 - FORMOTEROL 6MCG + BUDESONIDA 200 MCG (POR CAPSULA INALANTE)
+
+A partir do SIHSUS foram analisados o numero de Autorizacoes de Internacao Hospitalar (AIHs) e o numero de internacoes na UTI, de acordo com o municipio de residencia do paciente, 
+para o para o tratamento do grupo do CID J45. Finalmente, do SIMSUS foram analisados o número de obitos, de acordo com o municipio de residencia do individuo, com causa basica de obito 
+o grupo do CID J45. 
+
+Os dados foram extraidos do DATASUS por meio do software TabWin, disponibilizado gratuitamente pelo link: 
+
+http://www2.datasus.gov.br/DATASUS/index.php?area=060805&item=3
+
+Devido o grande numero de registros das bases utilizadas, os dados obtidos atraves do TabWin foram exportados em formato de arquivo .dbc e, posteriormente, manipulados e sintetizados por 
+meio da linguagem e ambiente para computação estatistica R (códigos da area de trabalho do R estão disponiveis no arquivo .txt em anexo). 
+Apos os bancos de dados serem manipulados no R, os dados compilados foram exportados na forma de arquivo .csv e, a partir deste banco de dados, foi criado no software gratuito Tableau Public,
+um dashboard para facil visualizacao dos resultados obtidos. Disponivel para visualizacao no link abaixo:
+
+https://public.tableau.com/profile/tiago.cepas.lobo#!/vizhome/AsmagravenoBrasil/Painel1?publish=yes
+
+A nossa análise permite a extração e fácil visualização dos dados de dispensacao dos medicamentos utilizados no tratamento da asma grave. Para alem disso, o nosso trabalho permite tambem
+quantificar e localizar geograficamente, os pacientes em tratamento, bem como o numero de internações e internaçoes em UTIs e, ainda, o número de obitos de asma no Brasil. 
+Portanto, os resultados obtidos são estrategicos para direcionar as politicas publicas voltadas para o tratamento da asma no pais. 
+
+
+
+
+
+
